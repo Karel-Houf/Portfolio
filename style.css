@@ -1,0 +1,134 @@
+body {
+    background-image: url("img/space.jpg");
+    background-size: cover;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foot-nav {
+    background-color: rgb(3, 3, 52);
+    font-size: 1em;
+    color:rgb(25, 25, 223);
+}
+/**************************
+ ******* NAVIGATION *******
+ **************************/
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+li {
+    padding: 1em;
+    margin: 5px;
+    border: outset;
+    border-radius: 3px;
+    border-color: rgb(3, 3, 52);
+    width: 10em;
+    text-align: center;
+    justify-content: safe;
+}
+
+li:hover {
+    background-color: rgb(79, 255, 30, 0.2);
+    border: outset;
+    border-radius: 3px;
+    border-color: rgb(79, 255, 30);
+    box-shadow: 5px 5px rgb(79, 255, 30);
+}
+
+li:hover a {
+    color:rgb(79, 255, 30);
+    text-shadow: 2px 2px rgb(5, 105, 5);
+}
+
+a {
+    display:block;
+    color: #1919DF;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+/**************************
+ **** CONTENT SECTION *****
+ **************************/
+
+.content-wrap {
+    max-width: 1024px;
+    background-color: rgb(2, 13, 83, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-container {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 5rem;
+    color:rgb(79, 255, 30);
+    text-shadow: 4px 4px rgb(5, 105, 5);
+}
+
+.mid-container {
+    display: grid;
+    margin: 2em;
+    gap: 1em;
+    justify-content: center;
+    align-items: flex-start;
+    color:rgb(25, 25, 223);
+    text-align: center;
+}
+
+.mid-item {
+    background-color: rgb(2, 13, 83, 0.6);
+    border: outset;
+    border-radius: 10px;
+    margin: 10px;
+    border-color:rgb(2, 13, 83, 0.8);
+    padding: 10px 40px;
+}
+
+.mid-item:hover {
+    background-color: rgb(79, 255, 30, 0.2);
+    border: outset;
+    border-radius: 10px;
+    border-color: rgb(79, 255, 30);
+    box-shadow: 5px 5px rgb(79, 255, 30);
+    color:rgb(79, 255, 30);
+    text-shadow: 2px 2px rgb(5, 105, 5);
+}
+
+
+p {
+    text-align: justify;
+}
+
+/**************************
+ ********* FOOTER *********
+ **************************/
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+

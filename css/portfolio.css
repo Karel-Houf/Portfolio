@@ -1,0 +1,22 @@
+.port-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 25px;
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box {
+    border: solid 5px;
+    border-color: rgb(3, 3, 52);
+    background-color: #444;
+}
+
+.box:hover {
+    -webkit-box-shadow:rgba(79,255,30,0.8) 0px 10px 20px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(79,255,30,0.8) 0px 10px 20px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(79,255,30,0.8) 0px 10px 20px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(79,255,30,0.8) 0px 10px 20px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}

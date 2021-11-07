@@ -3,12 +3,12 @@ body {
     background-size: cover;
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(116, 116, 230);
 }
 
 .foot-nav {
     background-color: rgb(3, 3, 52);
     font-size: 1em;
-    color:rgb(25, 25, 223);
 }
 /**************************
  ******* NAVIGATION *******
@@ -34,7 +34,6 @@ nav {
 }
 
 li {
-    padding: 1em;
     margin: 5px;
     border: outset;
     border-radius: 3px;
@@ -45,7 +44,7 @@ li {
 }
 
 li:hover {
-    background-color: rgb(79, 255, 30, 0.2);
+    background-color: rgb(2, 13, 83, 0.6);;
     border: outset;
     border-radius: 3px;
     border-color: rgb(79, 255, 30);
@@ -58,8 +57,9 @@ li:hover a {
 }
 
 a {
+    padding: 1em 0;
     display:block;
-    color: #1919DF;
+    color:rgb(64, 64, 204);
     text-decoration: none;
     width: 100%;
     height: 100%;
@@ -71,7 +71,6 @@ a {
 
 .content-wrap {
     max-width: 1024px;
-    background-color: rgb(2, 13, 83, 0.5);
     margin-left: auto;
     margin-right: auto;
 }
@@ -95,7 +94,6 @@ h1{
     gap: 1em;
     justify-content: center;
     align-items: flex-start;
-    color:rgb(25, 25, 223);
     text-align: center;
 }
 
@@ -109,7 +107,7 @@ h1{
 }
 
 .mid-item:hover {
-    background-color: rgb(79, 255, 30, 0.2);
+    background-color: rgba(13, 16, 190, 0.5);
     border: outset;
     border-radius: 10px;
     border-color: rgb(79, 255, 30);

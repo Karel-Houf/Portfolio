@@ -1,6 +1,7 @@
 body {
     background-image: url("img/space.jpg");
     background-size: cover;
+    background-position: center center;
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(116, 116, 230);
@@ -8,7 +9,7 @@ body {
 
 .foot-nav {
     background-color: rgb(3, 3, 52);
-    font-size: 1em;
+    font-size: 1.1em;
 }
 /**************************
  ******* NAVIGATION *******
@@ -28,7 +29,7 @@ nav {
 
 @media only screen and (max-width: 600px) {
     .main-nav {
-        font-size: 0.5em;
+        font-size: 0.7em;
         padding: 0;
     }
 }
@@ -76,16 +77,29 @@ a {
 }
 
 .top-container {
-    height: 40vh;
-    display: flex;
-    justify-content: center;
+    height: 15em;
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: space-evenly;
     align-items: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .top-container {
+        font-size: 0.8em;
+        padding: 0;
+        margin: 1em;
+    }
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 4em;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
     color:rgb(79, 255, 30);
-    text-shadow: 4px 4px rgb(5, 105, 5);
+    text-shadow: 0.05em 0.05em rgb(5, 105, 5);
 }
 
 .mid-container {
@@ -104,6 +118,7 @@ h1{
     margin: 10px;
     border-color:rgb(2, 13, 83, 0.8);
     padding: 10px 40px;
+    font-size: 1.2em;
 }
 
 .mid-item:hover {
@@ -116,6 +131,26 @@ h1{
     text-shadow: 2px 2px rgb(5, 105, 5);
 }
 
+@media only screen and (max-width: 600px) {
+    .mid-container {
+        padding: 0;
+        margin: 1px;
+    }
+
+    .mid-item {
+        padding: 1em;
+    }
+
+    .mid-item h2 {
+        padding: 0;
+        margin: 0.5em;
+    }
+    .mid-item p {
+        padding: 0;
+        margin: 0px;
+    }
+
+}
 
 p {
     text-align: justify;

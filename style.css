@@ -7,6 +7,8 @@ body {
     color:rgb(116, 116, 230);
 }
 
+
+
 .foot-nav {
     background-color: rgb(3, 3, 52);
     font-size: 1.1em;
@@ -45,7 +47,7 @@ li {
 }
 
 li:hover {
-    background-color: rgb(2, 13, 83, 0.6);;
+    background-color: rgba(5, 16, 86, 0.6);;
     border: outset;
     border-radius: 3px;
     border-color: rgb(79, 255, 30);
@@ -95,6 +97,15 @@ a {
 
 h1{
     font-size: 4em;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    color:rgb(79, 255, 30);
+    text-shadow: 0.05em 0.05em rgb(5, 105, 5);
+}
+
+h3{
+    font-size: 2em;
     font-style: italic;
     margin: 0;
     text-align: center;

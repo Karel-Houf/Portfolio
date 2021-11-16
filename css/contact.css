@@ -6,7 +6,10 @@ form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .top-form {
@@ -15,4 +18,62 @@ form {
     align-items: strech;
     gap: 10px;
 }
+
+@media only screen and (max-width: 500px) {
+    .top-form {
+        flex-direction: column;
+    }
+}
+
+input {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"] {
+    font-size: 16px;
+    font-family: sans-serif;
+    height: 50px;
+    padding: 0 20px;
+}
+
+textarea {
+    padding: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    overflow: auto;
+    min-height: 150px;
+    max-width: 640px;
+    resize: vertical;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid;
+    border-color: rgba(79, 255, 30, 0.8);
+    box-shadow: 0 1px 1px rgba(79, 255, 30, 0.075) inset, 0 0 8px rgba(79, 255, 30, 0.6);
+    outline: 0 none;
+}
+
+.f-style {
+    background: #100738;
+    color: rgb(79, 255, 30);
+    font-family: sans-serif;
+    border: 0;
+}
+
+
+.btn {
+   width: 200px; 
+   font-size: 16px;
+   font-weight: bold;
+   font-family: sans-serif;
+   align-self: center;
+   padding: 10px 20px;
+   border-radius: 15px;
+   border-color: rgb(79, 255, 30);
+   border: 2px solid;
+   margin: 20px 10px 0px 10px;
+}
+
+
 

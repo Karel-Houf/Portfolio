@@ -19,6 +19,11 @@ form {
     gap: 10px;
 }
 
+.form-wrapper {
+    margin-top: 10vh;
+
+}
+
 @media only screen and (max-width: 500px) {
     .top-form {
         flex-direction: column;

@@ -99,7 +99,8 @@ a {
 
 .content-wrap {
     max-width: 1024px;
-    margin: 0 auto 3em;
+    margin: 0 auto 2em;
+    width: 100%;
 }
 
 .top-container {
@@ -147,7 +148,7 @@ h3{
     border: outset;
     border-radius: 10px;
     margin: 10px;
-    border-color:var(--color-blue-dark);
+    border-color:var(--color-blue-dark);;
     padding: 10px 40px;
     font-size: 1.2em;
 }

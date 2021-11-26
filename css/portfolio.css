@@ -8,8 +8,13 @@
     width: 100%;
 }
 
+.box:hover {
+    transform: scale(1.1);
+    transition: 1s linear;
+}
+
 .box {
-    border: solid 5px;
+    border: solid 3px;
     border-color: rgb(3, 3, 52);
     background-color: #444;
 }
